@@ -1,0 +1,5 @@
+rootProject.name='Audiovisual'
+include ':app'
+include ':audio'
+include ':video'
+include ':universal'

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlayStateView">
+        <attr name="iconWidth" format="dimension" />
+        <attr name="iconHeight" format="dimension" />
+        <attr name="defaultIcon" format="reference" />
+        <attr name="playingIcon" format="reference" />
+        <attr name="iconMarginTop" format="dimension" />
+        <attr name="iconMarginRight" format="dimension" />
+        <attr name="descText" format="string" />
+        <attr name="descTextSize" format="dimension" />
+        <attr name="descDefaultTextColor" format="color" />
+        <attr name="descPlayingTextColor" format="color" />
+        <attr name="descMinLines" format="integer" />
+        <attr name="descMaxLines" format="integer" />
+        <attr name="descTextMarginTop" format="dimension" />
+        <attr name="descTextLineSpacingExtra" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcView">
+        <attr name="startAngle" format="float" />
+        <attr name="sweepAngle" format="float" />
+        <attr name="reverse" format="boolean" />
+        <attr name="roundCap" format="boolean" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="ringColor" format="color" />
+        <attr name="ringBackgroungColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="max_height" format="dimension" />
+    </declare-styleable>
+
+</resources>
